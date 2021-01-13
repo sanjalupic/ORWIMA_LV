@@ -1,0 +1,39 @@
+ol {
+    border: 2px solid black;
+    width: 250px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+a {
+    padding: 3px 3px 3px 35px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: red;
+}
+li:last-child{margin-bottom: 0px;} 
+
+[lang="en-GB"]{
+    background-image: url("Pictures/en-GB.png");
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-color:rgba(00,255,00, 0.75);
+} /*dodavanje zastave i pozadinske boje za britanske klubove*/
+[lang="es"]{
+    background-image: url("Pictures/es.png");
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-color:rgba(00,00,255, 0.5);
+}  /*dodavanje zastave i pozadisnke boje za španjolske klubove*/
+[lang="de"]{
+    background-image: url("Pictures/de.png");
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-color: rgba(255,00,00, 0.25);
+} /*dodavanje zastave i pozadinske boje za njemačke klubove*/
